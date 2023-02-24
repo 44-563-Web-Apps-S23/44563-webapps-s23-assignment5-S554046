@@ -13,6 +13,25 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="basic.html">Interesting Plants</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="basic.html">Basic HTML</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced HTML</a>
+              </li>
+        </ul>
+    </div>
+    </nav><br>
+    <br>
     <h1>Plants by Rohit Mangipudi</h1>
     <div class="container">
         <div class="row">
@@ -67,14 +86,14 @@
       <tr class="table-success">
         <td scope="row" >M</td>
         <td scope="row">Macho Fern</td>
-        <td scope="row">Markham</td>
+        <td scope="row">Markham</td> 
         <td scope="row">Manasbal Lake</td>
         
       </tr>
       <tr class="table-success">
         <td scope="row">A</td>
         <td scope="row">Abelia</td>
-        <td scope="row">Anai Mudi</td>
+        <td scope="row">Anai Mudi</td>  
         <td scope="row">Abert Lake</td>
     </tr>
     <tr class="table-success">
@@ -104,6 +123,17 @@
   </table>
   <br>
   <label>Buttons</label><br>
+  <div>
+    <button class="btn" >M</button>
+    <button class="btn" >A</button>
+    <button class="btn" >N</button>
+    <button class="btn" >G</button>
+    <button class="btn" >I</button>
+    <button class="btn" >P</button>
+
+  </div>
+  <label>Buttons with style</label>
+  <br>
   <div class="btn-group" role="group" aria-label="Basic example" >
            
             <button type="button" class="btn btn-success">M</button>
@@ -122,6 +152,63 @@
           </div>
         </div>
     </div>
+<br>
+<br>
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown HTML
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="basic.html">Basic HTML</a></li>
+          <li><a class="dropdown-item" href="advanced.html">Advanced HTML </a></li>
+        </ul>
+  </div><br>
+
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Your email will never be disclosed to anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label" >Plant</label>
+      <input type="text" class="form-control" placeholder="Enter your plant" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+      <br>
+      <div class="card" style="width: 16rem;float: left;">
+        <img src="macho-fern.jpg" class="card-img-top" alt="macho-fern">
+        <div class="card-body">
+          <h5 class="card-title">Macho Fern</h5>
+          <p class="card-text">Macho fern comes by its name honestly. This big, brawny fern sports bright green fronds with bold, broad leaves and makes its relatives, Boston fern and Kimberly Queen fern, look little by comparison. Macho fern is ideal for large urns or planters where it has room to flex its graceful 3- to 4-foot-long fronds.</p>
+          <a href="https://www.costafarms.com/plants/macho-fern#:~:text=Macho%20fern%20comes%20by%20its,4%2Dfoot%2Dlong%20fronds." class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <br>
+    <div class="card" style="width: 16rem;float: left;">
+        <img src="Abelia.jpg" class="card-img-top" alt="Abelia">
+        <div class="card-body">
+          <h5 class="card-title">Abelia</h5>
+          <p class="card-text">Abelia is a previously recognized genus that contained about 30 species and hybrids, placed in the honeysuckle family, Caprifoliaceae. Molecular phylogenetic studies showed that the genus was not monophyletic, and in 2013, Maarten Christenhusz proposed the merger of Abelia into Linnaea, along with some other genera</p>
+          <a href="https://en.wikipedia.org/wiki/Abelia" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+      <br>
+      <div class="card" style="width: 16rem;float: left;">
+        <img src="Galaxy_Petunia.jpg" class="card-img-top" alt="Galaxy_Petunia">
+        <div class="card-body">
+          <h5 class="card-title">Galaxy Petunia</h5>
+          <p class="card-text">These plants aren't just regular purple and blue petunias—they're speckled with white dots that give them the appearance of a starry night, and no two night sky petunias are alike.</p>
+          <a href="https://www.housebeautiful.com/lifestyle/gardening/a27959158/night-sky-galaxy-flowers/" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+</body>
+
 
 </body>
 </html>
